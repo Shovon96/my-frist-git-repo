@@ -1,0 +1,21 @@
+body{
+    width: 50%;
+    margin-left: 25%;
+}
+h2{
+    color: rgb(234, 106, 15);
+    background-color: rgb(107, 37, 75);
+    text-align: center;
+    box-shadow: 3px 2px 4px 3px purple;
+}
+h3{
+    background-color: sienna;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    background-color: dimgrey;
+
+}
