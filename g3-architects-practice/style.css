@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap');
+/* Shaerd Calss */
+h1{
+    font-family: 'Work Sans', sans-serif;
+}
+.font-color{
+    color: #131313;
+}
+.btn-praimary{
+    background-color: #FF900E;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Header Section Style */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(255, 144.05, 13.81, 0.10);
+    height: 80px;
+    align-items: center;
+}
+.nav-container>h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.list-items{
+    display: flex;
+}
+.list-items li{
+    list-style: none;
+}
+.list-items li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #131313;
+}
+/* Banner Container Style Start */
+.banner-container{
+    margin-top: 50px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner-container>p{
+    padding: 10px 300px;
+}
+.banner img{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+/* Responsive for small screen */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .banner-container>p{
+        padding: 20px;
+    }
+    .banner img{
+        width: 100%;
+        margin-left: 0;
+    }
+}
