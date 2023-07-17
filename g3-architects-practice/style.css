@@ -76,3 +76,17 @@ h1{
         margin-left: 0;
     }
 }
+
+/* Responsive for medium screen */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .banner-container>p{
+        padding:10px 50px;
+    }
+    .banner img{
+        width: 90%;
+        margin-left: 40px;
+    }
+}
